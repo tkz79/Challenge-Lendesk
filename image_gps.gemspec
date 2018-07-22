@@ -34,6 +34,8 @@ Gem::Specification.new do |s|
     lib/templates/html/_footer.html.erb
   )
   s.executables = ['image_gps.rb']
+  s.add_development_dependency('aruba', '~> 0.14.6')
   s.add_development_dependency('exifr', '~> 1.3', '>= 1.3.4')
   s.add_development_dependency('rake', '~> 12.3', '>= 12.3.1')
+  s.add_development_dependency('rspec', '~> 3.7')
 end
