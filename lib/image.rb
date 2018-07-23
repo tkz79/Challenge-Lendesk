@@ -1,9 +1,10 @@
+# frozen_string_literal: true
+
 require 'exifr/jpeg'
 
 # This class handles extracting EXIF data from images and providing data for
 # output files.
 class Image
-
   # Sets gps coordinates to nil if EXIF data is missing
   #
   #   image_path: a string path to the image

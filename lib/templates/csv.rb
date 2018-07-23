@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Templates
   # This Class handles creating and writing CSV output files
   class Csv

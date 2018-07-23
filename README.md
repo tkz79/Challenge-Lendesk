@@ -69,9 +69,9 @@ The output file is created in the pwd, which requires write permission.
 
 # INSTALL NOTES
 
-To install as a gem, type the following with correct version in app root:
+First package the gem with: `rake package`
 
-`gem install pkg/image_gps-0.0.1.gem`
+To install: `gem install pkg/image_gps-0.0.1.gem`
 
 # TEST
 

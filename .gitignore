@@ -1,2 +1,4 @@
-.DS_Store
 /tmp/aruba/*
+/pkg/*
+
+.DS_Store
